@@ -80,7 +80,7 @@ func main() {
 		userInput = strings.TrimSpace(userInput) // Remove any extra newlines/spaces
 
 		// Exit the program if the user types "exit" or "quit"
-		if strings.EqualFold(userInput, "exit") || strings.EqualFold(userInput, "quit") {
+		if strings.EqualFold(userInput, "bye") || strings.EqualFold(userInput, "goodbye") {
 			fmt.Println("Bot: Goodbye! Have a great day!")
 			break
 		}
